@@ -1,8 +1,11 @@
-# No BS
+# No BS (v1.0.0)
 
 Every time you ask AI to write a report, it sounds like a dictionary threw up. Every time you ask it to build a website, it slaps a glowing green dot inside an `EST. 2005` pill badge, puts a pointless subtitle under every heading, and drops vertical lines everywhere.
 
 This plugin kills those habits permanently. Install it once and make your AI write and build like a normal human.
+
+* **Current Version:** `v1.0.0`
+* **Author:** [Danesh Lou (@daneshlou07)](https://github.com/daneshlou07)
 
 ## What This Kills
 
@@ -28,15 +31,28 @@ This plugin kills those habits permanently. Install it once and make your AI wri
 ### Google Antigravity
 Run this in your terminal:
 ```bash
-agy plugin install https://github.com/human7905/no-bs
+agy plugin install https://github.com/daneshlou07/no-bs
 ```
 
 ### Universal Skills CLI (Antigravity, Cursor, Claude Code, Codex)
 ```bash
-npx skills add human7905/no-bs
+npx skills add daneshlou07/no-bs
+```
+
+## How to Update to Newer Versions
+Whenever a new version is released, run the install command again to overwrite with the latest rules:
+```bash
+agy plugin install https://github.com/daneshlou07/no-bs
+```
+Or if installed via `npx skills`:
+```bash
+npx skills update
 ```
 
 ## How It Works
 Once installed, two things happen automatically:
 1. `rules/AGENTS.md` stays active in the background on every chat so you never have to remind the AI to talk normal.
 2. `skills/no-bs/SKILL.md` loads whenever you write reports, edit documents, or build websites and user interfaces.
+
+## Version History
+* **v1.0.0:** Initial release with core documentation rules (plain student English, no em dashes, no pipe symbols, no random bolding, no unasked-for tables) and website UI rules (no section subtitles, no eyebrow pill badges, no status dots, no vertical dividers, no gradients, no button arrows or emojis).
