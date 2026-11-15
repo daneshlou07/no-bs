@@ -1,0 +1,17 @@
+{
+  "name": "no-bs",
+  "displayName": "No BS",
+  "description": "Stops AI from writing like a fake PhD and designing websites like a 2024 AI startup template. No big words, no em dashes, no subtitles, no pill badges, and no fake UI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Danesh Lou",
+    "url": "https://github.com/human7905"
+  },
+  "repository": "https://github.com/human7905/no-bs",
+  "homepage": "https://github.com/human7905/no-bs",
+  "suggestedPrompts": [
+    "Rewrite this report section in normal human English without big words",
+    "Build a clean dashboard with zero subtitles, pill badges, or vertical dividers",
+    "Strip all AI filler words, em dashes, and fake stats from my project"
+  ]
+}
